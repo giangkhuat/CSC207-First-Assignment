@@ -1,12 +1,10 @@
 
-package firstAssignment;
 import java.io.PrintWriter; 
 import java.io.BufferedReader; 
 import java.io.InputStreamReader; 
 
 
-
-public class cipher {
+public class cipher{
     public static void  EncryptPart2(char[] str, char[] key){
         int stringSize = str.length;
         int keySize = key.length;
@@ -18,7 +16,8 @@ public class cipher {
         	return;
         }
         // else create a loop to encrypt each character by the key
-        else {
+        else 
+        {
         	for(int i = 0; i < stringSize; i++) {
         		// encrypting
         		int character = (int) str[i]; 
